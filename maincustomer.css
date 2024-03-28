@@ -1,0 +1,90 @@
+/* Styling for the main container */
+.maincustomer {
+    display:flex;
+    flex-direction: column; /* Adjusted to column layout */
+    max-width: 2000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ffffff, #97dbe4);
+}
+
+/* Styling for the customer details */
+.customer-details {
+    text-align: center;
+    font-size:larger;
+}
+
+/* Styling for the buttons */
+.customer-details .buttons {
+    display: flex;
+    justify-content: center; /* Centering the buttons horizontally */
+    gap: 20px; /* Reduced gap between buttons */
+    margin-top: 20px; /* Added margin from the top */
+}
+
+.customer-details .buttons a {
+    padding: 10px 20px; /* Added padding to give button feel */
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none; /* Removed underline from links */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.customer-details .buttons a:hover {
+    background-color: #000000;
+}
+
+/* Styling for the offers */
+.offers {
+    margin-top: 20px;
+    text-align: center;
+    font-style: oblique; /* Added margin from the top */
+    font-size: larger;
+}
+
+.offers h2 {
+    margin-bottom: 10px;
+    color: #000000; /* Dark text color */
+    font-style: initial;
+}
+
+.offers ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.offers li {
+    margin-bottom: 5px;
+}
+
+.offers li:last-child {
+    margin-bottom: 0;
+}
+
+/* Additional Styling for Visual Enhancement */
+.maincustomer {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.customer-details p {
+    margin: 5px 0;
+    color: #000000; /* Slightly darker color for paragraphs */
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+.customer-details .buttons a {
+    border: 2px solid #007bff; /* Added border to give button feel */
+    transition: all 0.3s ease-in-out; /* Smoother transition for all button properties */
+}
+
+.customer-details .buttons a:hover {
+    background-color: #0056b3;
+    border-color: #0056b3; /* Change border color on hover */
+    transform: translateY(-2px); /* Add a slight upward movement on hover */
+}

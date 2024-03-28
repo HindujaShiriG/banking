@@ -1,0 +1,20 @@
+.table-container {
+  overflow-x: auto;
+}
+
+
+.transactions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transaction-item {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  color: white; /* Set text color to white */
+}

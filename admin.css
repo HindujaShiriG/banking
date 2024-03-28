@@ -1,0 +1,50 @@
+.admin-container {
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px; /* Add padding for better spacing */
+  background: transparent;
+}
+
+.admin-button {
+  background-color: transparent; /* Set background color to transparent */
+  border: 2px solid white; /* Add border */
+  color: white; /* Set button text color */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Changed from inline-block to block */
+  width: 100%; /* Added to make buttons fill container width */
+  font-size: 16px;
+  margin: 10px auto; /* Changed margin to center buttons */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-button:hover {
+  background-color:grey ;
+  color: #fff; /* Change text color on hover */
+}
+
+.button-container {
+  margin-top: 20px; /* Add margin for spacing */
+  display: flex; /* Added to make buttons appear in a row */
+  flex-direction: column; /* Added to make buttons stack vertically */
+  align-items: center; /* Added to center buttons horizontally */
+}
+
+.quote-container {
+  margin-top: 30px;
+}
+
+.quote {
+  font-size: 18px;
+  color:white;
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+.author {
+  font-style: italic;
+  color: #777;
+}

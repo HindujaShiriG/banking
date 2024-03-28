@@ -1,0 +1,88 @@
+/* Container */
+.signup-container, .signin-container {
+  max-width: 300px; /* Reduced max-width for smaller signup box */
+  margin: 0 auto;
+  padding: 1dvh; /* Reduced padding for smaller signup box */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: Arial, sans-serif; /* Change font family */
+  color: #ffffff; /* Text color */
+  height:auto;
+  line-height: 0;
+}
+
+/* Heading */
+.signup-container h2, .signin-container h2 {
+  font-size: 20px; /* Reduced font size for smaller heading */
+  margin-bottom: 10px; /* Reduced margin for smaller heading */
+  text-align: center; /* Center align the heading */
+  color: #fff; /* Heading text color */
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 15px; /* Reduced margin for smaller form group */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 4px; /* Reduced margin for smaller label */
+  color:white; /* Label text color */
+}
+
+.form-group input {
+  width: 100%; /* Full width input */
+  padding: 8px; /* Reduced padding for smaller input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px; /* Reduced font size for smaller input */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for inputs */
+  color: #000000; /* Input text color */
+}
+
+/* Button */
+button[type="submit"] {
+  width: 100%;
+  padding: 8px; /* Reduced padding for smaller button */
+  border: none;
+  border-radius: 5px;
+  background-color: #fff; /* Button background color */
+  color: #000000; /* Button text color */
+  font-size: 14px; /* Reduced font size for smaller button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #f0f0f0; /* Button background color on hover */
+}
+
+/* Error Message */
+.error {
+  color:red;
+  margin-top: 6px; /* Reduced margin for smaller error message */
+}
+
+/* Additional Text */
+p {
+  margin-top: 10px; /* Reduced margin for smaller additional text */
+  font-size: 12px; /* Reduced font size for smaller additional text */
+  color: #000000; /* Text color */
+  text-align: center; /* Center align the text */
+}
+
+p a {
+  color: #000; /* Link text color */
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Background Image */
+body {
+  background-image: url('../assets/money.jpg'); /* Insert background image URL */
+  background-size: cover; /* Cover the entire background */
+  background-attachment: fixed; /* Fixed background */
+}

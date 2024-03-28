@@ -1,0 +1,57 @@
+/* Form Container */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #ffffff, #000000); /* Gradient background */
+}
+
+.create h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.create form div {
+  margin-bottom: 15px;
+}
+
+.create form label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.create form input[type="text"],
+.create form input[type="file"] {
+  width: calc(100% - 12px); /* Adjust for padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.create form button {
+  width: 100%;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.create form button:hover {
+  background: linear-gradient(135deg, #0056b3, #003c80); /* Gradient background on hover */
+}
+
+.create p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif; /* Font style */
+}

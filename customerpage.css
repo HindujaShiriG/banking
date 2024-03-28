@@ -1,0 +1,97 @@
+/* Container */
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: -20px;
+  background-image: url(../assets/bankk.avif);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+  background: linear-gradient(90deg,White,white); /* Green color theme */
+  color: white;
+  margin-bottom: 20px;
+}
+
+.rbi-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.create-account-btn,
+.signin-btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: #1E90FF; /* Blue color theme */
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.create-account-btn:hover,
+.signin-btn:hover {
+  background: linear-gradient(135deg, #1E90FF, #4169E1);
+}
+
+.navbar-right {
+  margin-left: auto;
+}
+
+/* Bank Info */
+.bank-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bank-info h2 {
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+}
+
+.bank-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(90deg, #1E90FF, #4169E1); /* Blue color theme */
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Special Offers and Loan Features */
+.special-offers,
+.loan-features {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 20px;
+}

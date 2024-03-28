@@ -1,0 +1,83 @@
+/* Login Form */
+.Login {
+  width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffffff, #000000);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 200px;
+  height: auto;
+}
+
+/* Rest of the styles remain the same */
+
+/* Top Buttons */
+.Login .top-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.Login .top-buttons a {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.Login .top-buttons a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.Login h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Form */
+.Login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.Login button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Login button:hover {
+  background-color: #0056b3;
+}
+
+.Login p {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}

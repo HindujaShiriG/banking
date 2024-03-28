@@ -1,0 +1,123 @@
+/* Reset default margin and padding */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+/* Apply styles to the container */
+.container {
+  max-width: 2400px; /* Adjust container width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding */
+  background-color: #f7f7f7; /* Light background color */
+  background-image: url('../assets/background_image.jpg'); /* Background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+/* Styles for the header */
+.header {
+  /* border-bottom: 1px solid black; Light border */
+  padding: 10px 0; /* Reduce vertical padding */
+  text-align: center; /* Center align text */
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 36px; /* Larger font size */
+  color: white; /* Dark text color */
+  
+}
+
+.header-right, .signup-link {
+  text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+.bank-name {
+  position: absolute;
+  top: 20px; /* Adjust top position */
+  right: 20px; /* Adjust right position */
+  color: white; /* Text color */
+  font-weight: bold;
+  font-size: 24px; /* Adjust font size */
+}
+
+/* Styles for the main content */
+.main-content {
+  display: flex; /* Use flexbox for main content */
+  flex-direction: column; /* Arrange content in a column */
+  align-items: center; /* Center align items */
+}
+
+/* Styles for the hero section */
+.hero-section {
+  width: 100%; /* Full width */
+  padding: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+  margin-bottom: 20px; /* Add space below */
+}
+
+.hero-left {
+  width: 100%;
+  height: 300px; /* Fixed height for the image */
+  background-image:url(../assets/Microsoft.png);
+  background-size: cover;
+  border-radius: 10px; /* Add curved edges */
+  margin-bottom: 20px; /* Add space below */
+}
+
+.hero-right {
+  width: 100%;
+  color: #333;
+}
+
+.hero-right h2 {
+  font-size: 28px; /* Decrease font size */
+  margin-bottom: 15px; /* Reduce bottom margin */
+}
+
+.hero-right p {
+  font-size: 16px; /* Decrease font size */
+}
+
+.quote {
+  margin-top: 15px; /* Reduce top margin */
+  font-style: italic;
+}
+
+/* Styles for the photo section */
+.photo-section {
+  max-width: 1000px; /* Limit photo section width */
+}
+
+.photo-grid img {
+  width: 100%; /* Fill grid item width */
+  border-radius: 10px; /* Add curved edges */
+  margin-bottom: 20px; /* Add space below */
+}
+
+/* Styles for the footer */
+.footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer h3 {
+  margin: 50 30 10px; /* Adjust bottom margin */
+  font-size: 24px; /* Decrease font size */
+}
+
+.footer p {
+  margin: 0; /* Reset margin */
+}
